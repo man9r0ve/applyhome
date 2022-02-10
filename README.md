@@ -5,7 +5,7 @@
 python install -r requirements.txt
 ```
 
-### 
+### 실행
 ```bash
 python applyhome.py
 ```
