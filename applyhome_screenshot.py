@@ -17,8 +17,11 @@ import csv
 
 import telegram
 
-CHAT_TOKEN = ""
-CHAT_ID = ""
+from urllib.parse import unquote, quote, quote_plus, urlencode
+
+import sys
+
+import credential
 
 def __getLogger():
   with open("./logging.json", "rt") as file:
@@ -30,50 +33,26 @@ def __getLogger():
 
 #텔레그램봇으로 전송
 def sendTgBot(text):
-  bot = telegram.Bot(token=CHAT_TOKEN)
-  bot.sendMessage(chat_id=CHAT_ID, text=text, parse_mode="markdown")
+  bot = telegram.Bot(token=credential.CHAT_TOKEN)
+  bot.sendMessage(chat_id=credential.CHAT_ID, text=text, parse_mode="markdown")
 
-def getTypeName(cal_datas, index):
-    class_list = ['lb_special' ,'lb_one', 'lb_two', 'lb_office', 'lb_simin','lb_resid','lb_adv_special', 'lb_adv_one','lb_adv_two']
-    desc_list  = ['APT 특별공급' ,'APT 1순위', 'APT 2순위', '오피스텔/도시형생활주택/민간임대', '공공지원민간임대','무순위/취소후재공급','민간사전청약 APT 특별공급', '민간사전청약 APT 1순위','민간사전청약 APT 2순위']
-    
-    for iclss, clss in enumerate(class_list):
-        if cal_datas[index].evaluate('el => el.classList.contains("%s")' % clss):
-            return desc_list[iclss]
+def main(date):
+  with open('applyhome.json', 'r', encoding="utf-8") as file:
+    applyhome = json.load(file)
 
-def run(playwright: Playwright) -> None:
-    #logger 생성
-    global logger
-    logger = __getLogger()
+    try:
+      list = applyhome[date]
 
-    sendTgBot("[2021-02-10 내포신도시 모아미래도 메가시티 2차(APT 특별공급)](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000041&pblancNo=2022000041&houseSecd=01)")
+      for el in list:
+        parsed_url = "https://m.map.naver.com/search2/search.naver?query=%s&sm=hty&style=v5#/search" % quote(el['addr'])
+        #sendTgBot("**%s 청약 일정**\n\n[%s - %s]\n[%s](%s)\n\n[네이버 지도로 보기](%s)\n[구글 지도로 보기](https://www.google.com/maps/search/%s)" % (date, el['type'], el['short_addr'], el['name'], el['link'], parsed_url, quote(el['addr'])))
+        sendTgBot("**%s 청약 일정**\n\n[%s - %s]\n[%s](%s)\n\n[네이버 지도로 보기](%s)" % (date, el['type'], el['short_addr'], el['name'], el['link'], parsed_url))
+    except Exception as e:
+      sendTgBot("**%s 청약 일정**\n\n오늘은 청약 일정이 없네요." % date)
 
-    """with open("./applyhome.json", "r", encoding="utf-8") as jsonData:
-        applyhome = json.load(jsonData)
-
-    print("##########")
-    print(applyhome)
-
-    # chrome 브라우저를 실행
-    arguments = [
-        "--lang=ko_KR",
-        "--disable-blink-features=AutomationControlled",
-        "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36"
-        "--disable-blink-features=AutomationControlled",
-        "--width=800px"
-    ]
-
-    browser = playwright.chromium.launch(headless=True, args=arguments)
-    context = browser.new_context()
-
-    page = context.new_page()
-    page.goto("https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021000844&pblancNo=2021000844&houseSecd=01")
-    time.sleep(3)
-    #page.wait_for_load_state(state='load')
-    page.screenshot(path = "screenshot.png", full_page=True)
-
-    context.close()
-    browser.close()"""
-
-with sync_playwright() as playwright:
-    run(playwright)
+if __name__ == "__main__":
+  
+  if len(sys.argv) > 1 :
+    main(sys.argv[1])
+  else:
+    main(datetime.strftime(datetime.now(), '%Y-%m-%d'))
