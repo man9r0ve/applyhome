@@ -78,8 +78,31 @@ def run(playwright: Playwright) -> None:
                 home = {}
                 home['name'] = _data[1]
                 home['type'] = getTypeName(cal_datas, index)
-                home['link'] = 'https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=%s&pblancNo=%s&houseSecd=%s' % (cal_datas[index].get_attribute("data-hmno"), cal_datas[index].get_attribute("data-pbno"), cal_datas[index].get_attribute("data-se"))
-                #print(home)
+                if cal_datas[index].get_attribute("data-se") == '04':
+                    home['link'] = 'https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=%s&pblancNo=%s&houseSecd=%s' % (cal_datas[index].get_attribute("data-hmno"), cal_datas[index].get_attribute("data-pbno"), cal_datas[index].get_attribute("data-se"))
+                elif cal_datas[index].get_attribute("data-se") == '02':
+                    home['link'] = 'https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=%s&pblancNo=%s&houseSecd=%s' % (cal_datas[index].get_attribute("data-hmno"), cal_datas[index].get_attribute("data-pbno"), cal_datas[index].get_attribute("data-se"))
+                else:
+                    home['link'] = 'https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=%s&pblancNo=%s&houseSecd=%s' % (cal_datas[index].get_attribute("data-hmno"), cal_datas[index].get_attribute("data-pbno"), cal_datas[index].get_attribute("data-se"))
+
+                detail = context.new_page()
+
+                detail.goto(home['link'])
+                detail.wait_for_load_state(state='load')
+                time.sleep(2)
+
+                try:
+                    applyArea = detail.query_selector("xpath=/html/body/div[1]/table[1]/tbody/tr[1]/td[2]").inner_html()
+                    home['addr'] = applyArea
+
+                    areaArr = applyArea.split(" ")[:2]
+                    home['short_addr'] = " ".join(areaArr)
+                except Exception as e:
+                    #print(home['link'])
+                    print('Exception e : %s' % e)
+                    pass
+                
+                print('%d/%d home : %s' % (index,len(cal_table),home))
                 home_list.append(home)
 
         #print(date, ">> ", home_list)
