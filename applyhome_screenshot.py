@@ -17,8 +17,8 @@ import csv
 
 import telegram
 
-CHAT_TOKEN = "5057248274:AAG5ZLh2968zEE9282_-FkGuaYas5USIfww"
-CHAT_ID = "543572618"
+CHAT_TOKEN = ""
+CHAT_ID = ""
 
 def __getLogger():
   with open("./logging.json", "rt") as file:
