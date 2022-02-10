@@ -83,7 +83,7 @@ def run(playwright: Playwright) -> None:
                 home_list.append(home)
 
         #print(date, ">> ", home_list)
-        apply_json[date] = home_list
+        apply_json[datetime.strftime(datetime.strptime(date, '%Y년 %m월 %d일'),'%Y-%m-%d')] = home_list
 
     """
     print("------------")
