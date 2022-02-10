@@ -27,32 +27,32 @@
 		},
 		{
 			"name": "대전 씨엘리오 스위첸",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910023&pblancNo=2022910023&houseSecd=04"
 		},
 		{
 			"name": "동대구역 센텀 화성파크드림",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910020&pblancNo=2022910020&houseSecd=04"
 		},
 		{
 			"name": "라펜트 힐",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910019&pblancNo=2022910019&houseSecd=04"
 		},
 		{
 			"name": "리버카운티(6회차, 의정부시 거주자중 무주택세대구성원 대상)",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910022&pblancNo=2022910022&houseSecd=04"
 		},
 		{
 			"name": "송도자이 더 스타",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910021&pblancNo=2022910021&houseSecd=04"
 		},
 		{
 			"name": "중우아팰리스 더힐",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910025&pblancNo=2022910025&houseSecd=04"
 		}
 	],
@@ -64,32 +64,32 @@
 		},
 		{
 			"name": "김해 내덕지구 중흥S-클래스 더퍼스트",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021000832&pblancNo=2021000832&houseSecd=01"
 		},
 		{
 			"name": "김해 장유역 한라비발디 센트로",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021000844&pblancNo=2021000844&houseSecd=01"
 		},
 		{
 			"name": "힐스테이트 몬테로이 1BL",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000005&pblancNo=2022000005&houseSecd=01"
 		},
 		{
 			"name": "힐스테이트 몬테로이 2BL",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000006&pblancNo=2022000006&houseSecd=01"
 		},
 		{
 			"name": "힐스테이트 몬테로이 3BL",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000007&pblancNo=2022000007&houseSecd=01"
 		},
 		{
 			"name": "청라 월드메르디앙 커낼웨이 오피스텔",
-			"type": "",
+			"type": "오피스텔/도시형생활주택/민간임대",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021950115&pblancNo=2021950115&houseSecd=02"
 		}
 	],
@@ -106,93 +106,93 @@
 		},
 		{
 			"name": "송도 Luxe Ocean SK VIEW",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000022&pblancNo=2022000022&houseSecd=01"
 		},
 		{
 			"name": "한화 포레나 포항 2차",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021001019&pblancNo=2021001019&houseSecd=01"
 		},
 		{
 			"name": "김해 내덕지구 중흥S-클래스 더퍼스트",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021000832&pblancNo=2021000832&houseSecd=01"
 		},
 		{
 			"name": "김해 장유역 한라비발디 센트로",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021000844&pblancNo=2021000844&houseSecd=01"
 		},
 		{
 			"name": "힐스테이트 몬테로이 1BL",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000005&pblancNo=2022000005&houseSecd=01"
 		},
 		{
 			"name": "힐스테이트 몬테로이 2BL",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000006&pblancNo=2022000006&houseSecd=01"
 		},
 		{
 			"name": "힐스테이트 몬테로이 3BL",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000007&pblancNo=2022000007&houseSecd=01"
 		}
 	],
 	"2022년 02월 8일": [
 		{
 			"name": "더샵 청주그리니티",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021001011&pblancNo=2021001011&houseSecd=01"
 		},
 		{
 			"name": "화성비봉 공공주택지구 B2블록 호반 써밋",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000026&pblancNo=2022000026&houseSecd=01"
 		},
 		{
 			"name": "송도 Luxe Ocean SK VIEW",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000022&pblancNo=2022000022&houseSecd=01"
 		},
 		{
 			"name": "한화 포레나 포항 2차",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021001019&pblancNo=2021001019&houseSecd=01"
 		},
 		{
 			"name": "에비뉴 청계 I",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910027&pblancNo=2022910027&houseSecd=04"
 		}
 	],
 	"2022년 02월 9일": [
 		{
 			"name": "더샵 청주그리니티",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021001011&pblancNo=2021001011&houseSecd=01"
 		},
 		{
 			"name": "화성비봉 공공주택지구 B2블록 호반 써밋",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000026&pblancNo=2022000026&houseSecd=01"
 		},
 		{
 			"name": "계양 동도센트리움 골든베이",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910030&pblancNo=2022910030&houseSecd=04"
 		},
 		{
 			"name": "사하 삼정그린코아 더시티",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910029&pblancNo=2022910029&houseSecd=04"
 		}
 	],
 	"2022년 02월 10일": [
 		{
 			"name": "더샵 청주그리니티",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021001011&pblancNo=2021001011&houseSecd=01"
 		}
 	],
@@ -234,150 +234,150 @@
 		},
 		{
 			"name": "부평역 해링턴 플레이스",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910034&pblancNo=2022910034&houseSecd=04"
 		},
 		{
 			"name": "송도 센트럴파크 리버리치",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910033&pblancNo=2022910033&houseSecd=04"
 		},
 		{
 			"name": "신림스카이아파트",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910032&pblancNo=2022910032&houseSecd=04"
 		}
 	],
 	"2022년 02월 15일": [
 		{
 			"name": "광주 백운광장역 천년가 헤리시티",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000024&pblancNo=2022000024&houseSecd=01"
 		},
 		{
 			"name": "달서 푸르지오 시그니처",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000010&pblancNo=2022000010&houseSecd=01"
 		},
 		{
 			"name": "도램마을13단지 중흥S-클래스 그린카운티",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000052&pblancNo=2022000052&houseSecd=01"
 		},
 		{
 			"name": "두산위브 광주센트럴파크",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000003&pblancNo=2022000003&houseSecd=01"
 		},
 		{
 			"name": "신경주역 더 메트로 줌파크",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021001015&pblancNo=2021001015&houseSecd=01"
 		},
 		{
 			"name": "충주 세경아파트",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000036&pblancNo=2022000036&houseSecd=01"
 		},
 		{
 			"name": "한화 포레나 청주매봉",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000038&pblancNo=2022000038&houseSecd=01"
 		},
 		{
 			"name": "브이티스타일",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910026&pblancNo=2022910026&houseSecd=04"
 		},
 		{
 			"name": "오산 라온프라이빗 스위트",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910035&pblancNo=2022910035&houseSecd=04"
 		},
 		{
 			"name": "천안 극동스타클래스 더퍼스트",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910041&pblancNo=2022910041&houseSecd=04"
 		},
 		{
 			"name": "힐스테이트 평택 더퍼스트",
-			"type": "",
+			"type": "무순위/취소후재공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022910038&pblancNo=2022910038&houseSecd=04"
 		}
 	],
 	"2022년 02월 16일": [
 		{
 			"name": "광주 백운광장역 천년가 헤리시티",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000024&pblancNo=2022000024&houseSecd=01"
 		},
 		{
 			"name": "달서 푸르지오 시그니처",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000010&pblancNo=2022000010&houseSecd=01"
 		},
 		{
 			"name": "두산위브 광주센트럴파크",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000003&pblancNo=2022000003&houseSecd=01"
 		},
 		{
 			"name": "한화 포레나 청주매봉",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000038&pblancNo=2022000038&houseSecd=01"
 		},
 		{
 			"name": "도램마을13단지 중흥S-클래스 그린카운티",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000052&pblancNo=2022000052&houseSecd=01"
 		},
 		{
 			"name": "신경주역 더 메트로 줌파크",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2021001015&pblancNo=2021001015&houseSecd=01"
 		},
 		{
 			"name": "충주 세경아파트",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000036&pblancNo=2022000036&houseSecd=01"
 		},
 		{
 			"name": "힐스테이트 청량리 메트로블(오피스텔)",
-			"type": "",
+			"type": "오피스텔/도시형생활주택/민간임대",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022950005&pblancNo=2022950005&houseSecd=02"
 		}
 	],
 	"2022년 02월 17일": [
 		{
 			"name": "광주 백운광장역 천년가 헤리시티",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000024&pblancNo=2022000024&houseSecd=01"
 		},
 		{
 			"name": "달서 푸르지오 시그니처",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000010&pblancNo=2022000010&houseSecd=01"
 		},
 		{
 			"name": "두산위브 광주센트럴파크",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000003&pblancNo=2022000003&houseSecd=01"
 		},
 		{
 			"name": "한화 포레나 청주매봉",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000038&pblancNo=2022000038&houseSecd=01"
 		}
 	],
 	"2022년 02월 18일": [
 		{
 			"name": "양주 회천지구 A-20BL 대광로제비앙 2차(사전청약)",
-			"type": "",
+			"type": "민간사전청약 APT 특별공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022520002&pblancNo=2022520002&houseSecd=09"
 		},
 		{
 			"name": "파주 운정신도시 A33블록 우미 린(사전청약)",
-			"type": "",
+			"type": "민간사전청약 APT 특별공급",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022520001&pblancNo=2022520001&houseSecd=09"
 		}
 	],
@@ -394,17 +394,17 @@
 		},
 		{
 			"name": "힐스테이트 청량리 메트로블(도시형생활주택)",
-			"type": "",
+			"type": "오피스텔/도시형생활주택/민간임대",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022950004&pblancNo=2022950004&houseSecd=02"
 		},
 		{
 			"name": "양주 회천지구 A-20BL 대광로제비앙 2차(사전청약)",
-			"type": "",
+			"type": "민간사전청약 APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022520002&pblancNo=2022520002&houseSecd=09"
 		},
 		{
 			"name": "파주 운정신도시 A33블록 우미 린(사전청약)",
-			"type": "",
+			"type": "민간사전청약 APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022520001&pblancNo=2022520001&houseSecd=09"
 		}
 	],
@@ -416,41 +416,41 @@
 		},
 		{
 			"name": "포항자이 디오션",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000030&pblancNo=2022000030&houseSecd=01"
 		},
 		{
 			"name": "힐스테이트 청량리 메트로블(도시형생활주택)",
-			"type": "",
+			"type": "오피스텔/도시형생활주택/민간임대",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022950004&pblancNo=2022950004&houseSecd=02"
 		},
 		{
 			"name": "양주 회천지구 A-20BL 대광로제비앙 2차(사전청약)",
-			"type": "",
+			"type": "민간사전청약 APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022520002&pblancNo=2022520002&houseSecd=09"
 		},
 		{
 			"name": "파주 운정신도시 A33블록 우미 린(사전청약)",
-			"type": "",
+			"type": "민간사전청약 APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022520001&pblancNo=2022520001&houseSecd=09"
 		}
 	],
 	"2022년 02월 23일": [
 		{
 			"name": "내포신도시 모아미래도 메가시티 2차",
-			"type": "",
+			"type": "APT 1순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000041&pblancNo=2022000041&houseSecd=01"
 		},
 		{
 			"name": "포항자이 디오션",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000030&pblancNo=2022000030&houseSecd=01"
 		}
 	],
 	"2022년 02월 24일": [
 		{
 			"name": "내포신도시 모아미래도 메가시티 2차",
-			"type": "",
+			"type": "APT 2순위",
 			"link": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2022000041&pblancNo=2022000041&houseSecd=01"
 		}
 	]

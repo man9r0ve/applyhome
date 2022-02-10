@@ -30,8 +30,6 @@ def getTypeName(cal_datas, index):
     for iclss, clss in enumerate(class_list):
         if cal_datas[index].evaluate('el => el.classList.contains("%s")' % clss):
             return desc_list[iclss]
-        else:
-            return ""
 
 def run(playwright: Playwright) -> None:
 
