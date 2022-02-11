@@ -41,20 +41,20 @@ def main(date):
     applyhome = json.load(file)
 
     try:
-      list = applyhome[date]
+      list = applyhome[date[0]]
 
       for el in list:
         naver_parsed_url = "https://m.map.naver.com/search2/search.naver?query=%s&sm=hty&style=v5#/search" % quote(el['addr'])
-        google_pared_url = "https://www.google.com/maps/place/%s" % quote(el['addr'].replace(" ","+"))
-        #sendTgBot("**%s 청약 일정**\n\n[%s - %s]\n[%s](%s)\n\n[네이버 지도로 보기](%s)\n[구글 지도로 보기](https://www.google.com/maps/search/%s)" % (date, el['type'], el['short_addr'], el['name'], el['link'], parsed_url, quote(el['addr'])))
-        sendTgBot("**%s 청약 일정**\n\n[%s - %s]\n[%s](%s)\n\n[네이버 지도로 보기](%s)\n[구글 지도로 보기](%s)" % (date, el['type'], el['short_addr'], el['name'], el['link'], naver_parsed_url, google_pared_url))
+        google_pared_url = "https://www.google.com/maps/place/%s" % quote(el['addr'])
+
+        sendTgBot("**%s %s 청약 일정**\n\n[%s - %s]\n[%s](%s)\n\n[네이버 지도로 보기](%s)\n[구글 지도로 보기](%s)" % (date[1], date[0], el['type'], el['short_addr'], el['name'], el['link'], naver_parsed_url, google_pared_url))
     except Exception as e:
-      sendTgBot("**%s 청약 일정**\n\n오늘은 청약 일정이 없네요." % date)
+      sendTgBot("**%s %s 청약 일정**\n\n오늘은 청약 일정이 없네요." % (date[1], date[0]))
 
 if __name__ == "__main__":
   if len(sys.argv) > 1:
-    main(sys.argv[1])
+    main((sys.argv[1],''))
   else:
     now = datetime.datetime.now()
-    dates = [datetime.datetime.strftime(now, '%Y-%m-%d'), datetime.datetime.strftime(now + datetime.timedelta(days=1), '%Y-%m-%d')]
+    dates = [(datetime.datetime.strftime(now, '%Y-%m-%d'),'오늘'), (datetime.datetime.strftime(now + datetime.timedelta(days=1), '%Y-%m-%d'), '내일')]
     [main(d) for d in dates]
