@@ -5,7 +5,7 @@ import random
 import os
 from pathlib import Path
 
-from datetime import datetime
+import datetime
 
 import logging
 import logging.config
@@ -44,15 +44,17 @@ def main(date):
       list = applyhome[date]
 
       for el in list:
-        parsed_url = "https://m.map.naver.com/search2/search.naver?query=%s&sm=hty&style=v5#/search" % quote(el['addr'])
+        naver_parsed_url = "https://m.map.naver.com/search2/search.naver?query=%s&sm=hty&style=v5#/search" % quote(el['addr'])
+        google_pared_url = "https://www.google.com/maps/place/%s" % quote(el['addr'].replace(" ","+"))
         #sendTgBot("**%s 청약 일정**\n\n[%s - %s]\n[%s](%s)\n\n[네이버 지도로 보기](%s)\n[구글 지도로 보기](https://www.google.com/maps/search/%s)" % (date, el['type'], el['short_addr'], el['name'], el['link'], parsed_url, quote(el['addr'])))
-        sendTgBot("**%s 청약 일정**\n\n[%s - %s]\n[%s](%s)\n\n[네이버 지도로 보기](%s)" % (date, el['type'], el['short_addr'], el['name'], el['link'], parsed_url))
+        sendTgBot("**%s 청약 일정**\n\n[%s - %s]\n[%s](%s)\n\n[네이버 지도로 보기](%s)\n[구글 지도로 보기](%s)" % (date, el['type'], el['short_addr'], el['name'], el['link'], naver_parsed_url, google_pared_url))
     except Exception as e:
       sendTgBot("**%s 청약 일정**\n\n오늘은 청약 일정이 없네요." % date)
 
 if __name__ == "__main__":
-  
-  if len(sys.argv) > 1 :
+  if len(sys.argv) > 1:
     main(sys.argv[1])
   else:
-    main(datetime.strftime(datetime.now(), '%Y-%m-%d'))
+    now = datetime.datetime.now()
+    dates = [datetime.datetime.strftime(now, '%Y-%m-%d'), datetime.datetime.strftime(now + datetime.timedelta(days=1), '%Y-%m-%d')]
+    [main(d) for d in dates]
